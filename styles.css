@@ -1,0 +1,102 @@
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   background-color: black;
+   background-size: cover;
+   margin: 8rem 2rem 0rem 2rem ;
+   height: 100%;
+}
+
+header {
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header p {
+    font-family: 'Passion One', cursive;
+    color: white;
+    font-size: 2.4rem;
+    color: #0e49d5;
+}
+
+header h1 {
+    font-family: 'Creepster', cursive;
+    font-size: 3.4rem;
+    color: white;
+    letter-spacing: 1.5px;
+}
+
+header img:last-child {
+    width: 20rem;
+}
+
+main {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20rem;
+    flex-direction: column;
+}
+
+main img {
+    width: 20rem;
+    margin-bottom: 3rem;
+    margin-top: 8rem;
+}
+
+main p {
+    font-family: 'Creepster', cursive;
+    font-size: 2.2rem;
+    color: blue;
+    letter-spacing: 1.5px;
+}
+
+.dire {
+    font-family: 'Creepster', cursive;
+    font-size: 2.2rem;
+    color: white;
+    letter-spacing: 1.5px;
+}
+
+.buttons {
+    width: 90%;
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-evenly;
+}
+
+.buttons button {
+    width: 12rem;
+    height: 4rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #0e49d5;
+    color: white;
+    font-weight: bold;
+}
+
+footer {
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+footer img {
+    width: 20rem;
+    margin-top: 8rem;
+}
